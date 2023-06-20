@@ -332,6 +332,21 @@ header{
     }
 }
 
+@media (max-width:414px){
+    .home-img img{
+        margin-left: 3.2rem;
+        margin-top: 4.5rem;
+    }
+}
+
+
+@media (max-width:375px){
+    .home-img img{
+        margin-left: 3.2rem;
+        margin-top: 4.5rem;
+    }
+}
+
 @media (max-width:364px){
     .links{
         display: flex;
