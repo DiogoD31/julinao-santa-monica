@@ -132,10 +132,10 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .atracoes-container .box{
-    flex: 1 1 10rem;
+    flex: 1 1 12rem;
     padding: 20px;
     display: flex;
     text-align: center;
@@ -143,6 +143,19 @@ header{
     align-items: center;
     margin-top: 2rem;
     border-radius: 0.5rem;
+    background-color: #24a58e;
+}
+.atracoes-container .box h2{
+    color: #000000;
+    padding-bottom: 0.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.atracoes-container .box span{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: auto;
 }
 /* QUANDO COLOCAR AS IMAGENS DA GALERIA */
 .atracoes-container .box .box-img{
@@ -211,7 +224,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e0e0e0;
+    background-color: #24a58e;
 }
 .social a{
     font-size: 27px;
@@ -326,8 +339,8 @@ header{
 
 @media (max-width:626px){
     .home-img img{
-        margin-top: 2rem;
-        margin-left: 1.5rem;
+        margin-top: 5rem;
+        margin-left: 5rem;
         width: 70%;
     }
 }
